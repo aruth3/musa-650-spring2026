@@ -1,11 +1,16 @@
+## Week 1: Course Introduction
 
+### Course Overview
+Slides: [TODO]
 
-Class presentations:
-- Introduction
-- Lecture #1
-- Lab: 
-- Install everything
-- Answer questions about syllabus, etc.
-- Intro survey
+#### Syllabus Review
+See [README.md](../../README.md) for syllabus.
 
-projectpythia.org/landsat-ml-cookbook/
+#### Intro Survey
+Link to survey: [TODO]
+
+#### Software Installation
+See [README.md](../../README.md#software) for instructions.
+
+### Lecture: Intro to Remote Sensing and Applications to Urban Planning
+Slides: [TODO]
