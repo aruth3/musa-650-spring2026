@@ -39,6 +39,7 @@ This tutorial is based on the following resources. You are not limited to using 
 
 3. Explore the metadata by simply examining the collection object. What's the description? STAC version? Check out the links, the ID, the license, keywords, etc. List the assets available in this collection. What bands are available? What other assets (e.g., QA bands, thumbnails) are included?
 
+
 #### Part 2: Query for imagery over your study area and verify the results make sense.
 
 4. Define a bounding box for Singapore. Hint: we deliberately chose Singapore because it's small enough to fit within a single Landsat tile; this simplifies loading.
