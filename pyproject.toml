@@ -48,7 +48,6 @@ dependencies = [
     "marimo>=0.19.9",
     "shap>=0.50.0",
     "geemap>=0.37.1",
-    "ee>=0.2",
 ]
 
 [tool.black]

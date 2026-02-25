@@ -259,18 +259,6 @@ css = [
 ]
 
 [[package]]
-name = "blessings"
-version = "1.7"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "six" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/5c/f8/9f5e69a63a9243448350b44c87fae74588aa634979e6c0c501f26a4f6df7/blessings-1.7.tar.gz", hash = "sha256:98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d", size = 28194 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/03/74/489f85a78247609c6b4f13733cbf3ba0d864b11aa565617b645d6fdf2a4a/blessings-1.7-py3-none-any.whl", hash = "sha256:b1fdd7e7a675295630f9ae71527a8ebc10bfefa236b3d6aa4932ee4462c17ba3", size = 18460 },
-]
-
-[[package]]
 name = "bokeh"
 version = "3.8.1"
 source = { registry = "https://pypi.org/simple" }
@@ -836,15 +824,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/33/b6/02cee23f96f5f751a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ea/e5/37893457baa12d06522c50af78804179521cf5e665de2e46e8d166e13e0b/earthengine_api-1.7.15-py3-none-any.whl", hash = "sha256:e09ac9c04d1ca019487e6cc312d437ec51ff6d2b7abb857dbf73ebb4c5632d05", size = 477082 },
 ]
-
-[[package]]
-name = "ee"
-version = "0.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "blessings" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/1e/85/c84cb4e02eeec6be1be045bc9b6c16ed964cb0c614abd3f0eee127f1b2be/ee-0.2.tar.gz", hash = "sha256:3f1bc017e8eb293425e7378a865c2b24cef67166f6929bd2289ea9413d0a7c65", size = 3038 }
 
 [[package]]
 name = "eerepr"
@@ -2197,7 +2176,6 @@ dependencies = [
     { name = "dask" },
     { name = "dask-gateway" },
     { name = "dask-ml" },
-    { name = "ee" },
     { name = "flake8" },
     { name = "folium" },
     { name = "geemap" },
@@ -2245,7 +2223,6 @@ requires-dist = [
     { name = "dask", specifier = ">=2025.12.0" },
     { name = "dask-gateway", specifier = ">=2025.4.0" },
     { name = "dask-ml", specifier = ">=2025.1.0" },
-    { name = "ee", specifier = ">=0.2" },
     { name = "flake8", specifier = ">=7.3.0" },
     { name = "folium", specifier = ">=0.20.0" },
     { name = "geemap", specifier = ">=0.37.1" },
